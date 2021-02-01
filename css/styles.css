@@ -1,0 +1,137 @@
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+
+*{
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navigation styling */
+.navbar-nav{
+    padding-left: 60%;
+    margin: 0px;
+    padding: 0px;
+}
+#navbarNavDropdown{
+    justify-content: flex-end;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.bg-light{
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.16);
+}
+/* Navigation styling end */
+
+/* breadcrumbs styling */
+.breadcrumbs{
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.case-studies{
+    color: #30001A;
+    font-weight: 100px;
+}
+.home{
+    color: #30001A;
+    font-weight: 100px;
+}
+.space-force{
+    color: #FE0C97;
+    font-weight: 300px;
+}
+/* breadcrumbs styling end*/
+
+/* header styling */
+#Headline{
+    font-size: 39px;
+    font-weight: lighter;
+    text-align: center;
+    color: #30001A;
+}
+
+#main-mockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img-mockup{
+    height: 523px;
+    width: 869px;
+    margin: 30px;
+
+}
+.table{
+    width: 700px;
+    border-spacing: 4px;
+    -webkit-border-horizontal-spacing: 4px;
+    -webkit-border-vertical-spacing: 4px;
+
+}
+
+.table-sm td, .table-sm th{
+    padding: 1rem;
+}
+.table-sm td{
+width: 40%;
+}
+.table-sm th{
+    width: 10%;
+}
+
+.col-1{
+    width: 150px;
+}
+
+td[colspan="2"] {
+    background-image: url(./images/tools.png);
+    align-items: center;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+   }
+/* header styling end*/
+
+/* overview styling */
+#overview-headline{
+    font-size: 39px;
+    font-weight: lighter;
+    text-align: center;
+    color: #30001A;
+    margin-top: 5%;
+}
+
+#overview{
+    display: flex;
+    justify-content: center;
+}
+
+#overview{
+    margin-top: 5%;
+}
+
+
+.card-img-top{
+    width: 300px;
+    height: 150px;
+}
+.card{
+    width: 600px;
+    /* margin: 0px;
+    padding: 0px; */
+}
+.background-sf{
+    background-image: url(./images/why\ sf.png);
+}
+
+/* overview styling end*/
